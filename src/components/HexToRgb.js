@@ -36,7 +36,7 @@ export default function HexToRgb() {
       <input 
         className='rgb'
         type='text'
-        value={rgb ? rgb : 'Ошибка!'} 
+        value={rgb ? rgb : 'Введите значение HEX'} 
         disabled 
       />
     </form>
